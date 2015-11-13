@@ -3860,6 +3860,8 @@ DicomDictionary = {
     0x54001010: ('OB or OW', '1', "Waveform Data", '', 'WaveformData'),
     0x56000010: ('OF', '1', "First Order Phase Correction Angle", '', 'FirstOrderPhaseCorrectionAngle'),
     0x56000020: ('OF', '1', "Spectroscopy Data", '', 'SpectroscopyData'),
+    0x70371009:	('CS', '1',	"Type of Projection Data", '', "TypeofProjectionData"),
+    0x7037100A:	('CS', '1', "Type of Projection Geometry", '', "TypeofProjectionGeometry"),
     0x7FE00008: ('OF', '1', "Float Pixel Data", '', 'FloatPixelData'),
     0x7FE00009: ('OD', '1', "Double Float Pixel Data", '', 'DoubleFloatPixelData'),
     0x7FE00010: ('OB or OW', '1', "Pixel Data", '', 'PixelData'),
